@@ -1,0 +1,19 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Lucky Blonks",
+      "name" : "Lucky Blonks",
+      "version" : "2021-06-04-15-54-09",
+      "location" : "lucky-blonks.json",
+      "priority" : 100
+    },
+    {
+      "title" : "Skyblock",
+      "name" : "Skyblock",
+      "version" : "2021-06-04-14-50-21",
+      "location" : "skyblock.json",
+      "priority" : 0
+    }
+  ]
+}
