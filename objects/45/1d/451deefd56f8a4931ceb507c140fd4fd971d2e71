@@ -1,0 +1,146 @@
+{
+	id: "00000000000001C6",
+	group: "",
+	order_index: 6,
+	filename: "overworld",
+	title: "Overworld",
+	icon: "minecraft:grass_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: ["00000000000001BE"],
+			hide: true,
+			id: "00000000000001C9",
+			tasks: [{
+				id: "00000000000001CA",
+				type: "stat",
+				stat: "minecraft:mob_kills",
+				value: 150
+			}],
+			rewards: [{
+				id: "00000000000001EE",
+				type: "item",
+				item: "tinymobfarm:diamond_farm"
+			}]
+		},
+		{
+			icon: "minecraft:wheat",
+			x: 0.0d,
+			y: -1.5d,
+			min_required_dependencies: 1,
+			dependencies: [
+				"0000000000000092",
+				"000000000000001E"
+			],
+			hide: true,
+			id: "00000000000001CB",
+			tasks: [{
+				id: "00000000000001CC",
+				type: "stat",
+				stat: "minecraft:animals_bred",
+				value: 40
+			}],
+			rewards: [{
+				id: "0000000000003AED",
+				type: "item",
+				item: "productivebees:spawn_egg_cupid_bee"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["00000000000001DF"],
+			hide: true,
+			id: "00000000000001FF",
+			tasks: [{
+				id: "0000000000000200",
+				type: "item",
+				item: {
+					id: "minecraft:stone_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			dependencies: ["00000000000001FF"],
+			hide: true,
+			id: "0000000000000201",
+			tasks: [{
+				id: "0000000000000202",
+				type: "item",
+				item: {
+					id: "minecraft:iron_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Rebuild the world",
+			icon: {
+				id: "buildinggadgets:gadget_building",
+				Count: 1b,
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer",
+						state: {
+							Name: "minecraft:air"
+						},
+						data: {}
+					}
+				}
+			},
+			x: -2.5d,
+			y: 0.0d,
+			dependencies: [
+				"00000000000000CC",
+				"00000000000001E1"
+			],
+			hide: true,
+			id: "0000000000003B25",
+			tasks: [
+				{
+					id: "0000000000003B26",
+					type: "item",
+					item: {
+						id: "buildinggadgets:gadget_building",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: "0000000000003B27",
+					type: "item",
+					item: {
+						id: "charginggadgets:charging_station",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000003B28",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 2
+				},
+				{
+					id: "0000000000003B29",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+onEvent('recipes', event => {
+
+    const apparatus = (result, input, ingredients) => {
+        event.custom({
+                "type": "ars_nouveau:enchanting_apparatus",
+                "item_1": [ingredients[0]],
+                "item_2": [ingredients[1]],
+                "item_3": [ingredients[2]],
+                "item_4": [ingredients[3]],
+                "item_5": [ingredients[4]],
+                "item_6": [ingredients[5]],
+                "item_7": [ingredients[6]],
+                "item_8": [ingredients[7]],
+                "reagent": [input],
+                "output": result 
+        });
+    }
+
+    apparatus(Item.of('oneblock:nihilo_catalyst', {oblevel:2000}), Item.of('oneblock:nihilo_catalyst', {empty:true}).toJson(), [
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem'),
+        Item.of('ars_nouveau:mana_gem')
+    ]);
+})

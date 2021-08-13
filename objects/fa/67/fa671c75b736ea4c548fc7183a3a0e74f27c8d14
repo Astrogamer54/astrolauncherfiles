@@ -1,0 +1,32 @@
+
+[general]
+	#
+	#Set to false to disable the circle
+	"Place Circle" = true
+	#No longer used. See config/oneblock/
+	"Oneblock guaranteed content" = []
+	#
+	#Set to false to disable the OBMaker give at spawn
+	#
+	"Give OBMaker" = true
+	#Customize the one block level up message
+	#%X% -> X position of the one block.
+	#%Y% -> Y position of the one block.
+	#%Z% -> Z position of the one block.
+	#%Level% -> level name of the one block.
+	#Note :
+	#You can type § to use minecraft colors
+	#Set an empty space to disable message
+	"Level up message" = "The One Block at §e%X% %Y% %Z%§r level up to §e%Level%"
+	#No longer used. See config/oneblock/phases/
+	"Oneblock levels content" = []
+
+[generators]
+	#Generation Cooldown (in ticks)
+	#This cooldown will be used for all phases
+	#Set to 0 to use phase's cooldown instead
+	#Range: > 0
+	Ticks = 100
+	#Set true to disable mob kill sounds
+	Mute = true
+

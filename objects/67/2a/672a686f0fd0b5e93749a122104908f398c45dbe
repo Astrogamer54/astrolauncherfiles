@@ -1,0 +1,31 @@
+{
+	id: "0000000000000346",
+	group: "",
+	order_index: 13,
+	filename: "dimensions",
+	title: "Dimensions",
+	always_invisible: true,
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -4.0d,
+			y: -2.0d,
+			id: "0000000000000347",
+			tasks: [{
+				id: "0000000000000348",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			id: "0000000000000349",
+			tasks: [{
+				id: "000000000000034A",
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}]
+		}
+	]
+}

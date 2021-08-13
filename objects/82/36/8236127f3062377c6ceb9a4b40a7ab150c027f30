@@ -1,0 +1,81 @@
+{
+	id: "000000000000036B",
+	group: "",
+	order_index: 16,
+	filename: "all_in_one",
+	title: "All in One",
+	icon: "refinedstorage:creative_storage_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "All in One",
+			icon: "refinedstorage:creative_storage_block",
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [
+				"0000000000000002",
+				"0000000000000007",
+				"0000000000000040",
+				"000000000000019B",
+				"00000000000001C6",
+				"0000000000000098",
+				"00000000000001ED",
+				"00000000000001CD",
+				"0000000000000247",
+				"000000000000021C",
+				"00000000000002E7",
+				"0000000000000351",
+				"0000000000000268",
+				"0000000000003AEE"
+			],
+			hide: true,
+			id: "000000000000036C",
+			tasks: [{
+				id: "000000000000036D",
+				type: "checkmark",
+				title: "All in One"
+			}],
+			rewards: [
+				{
+					id: "000000000000036E",
+					type: "item",
+					item: "refinedstorage:creative_storage_block"
+				},
+				{
+					id: "000000000000036F",
+					type: "item",
+					item: "refinedstorage:creative_fluid_storage_block"
+				},
+				{
+					id: "0000000000000370",
+					type: "item",
+					item: "ars_nouveau:creative_spell_book"
+				},
+				{
+					id: "0000000000000371",
+					type: "xp_levels",
+					xp_levels: 1000
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Awesome ! You have completed the modpack !",
+			description: [
+				"Awesome ! You have completed the modpack !",
+				"Or did you cheat ?",
+				"Anyway, thanks for playing the All in One modpack !"
+			],
+			dependencies: ["000000000000036C"],
+			hide: true,
+			id: "0000000000000372",
+			tasks: [{
+				id: "0000000000000373",
+				type: "checkmark",
+				title: "Congratulations !",
+				icon: "minecraft:totem_of_undying"
+			}]
+		}
+	]
+}

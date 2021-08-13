@@ -9,6 +9,13 @@
       "priority" : 100
     },
     {
+      "title" : "One Block Skeebonkel",
+      "name" : "One Block Skeebonkel",
+      "version" : "2021-08-13-10-59-17",
+      "location" : "one-block-skeebonkel.json",
+      "priority" : 3
+    },
+    {
       "title" : "Skyblock",
       "name" : "Skyblock",
       "version" : "2021-06-04-14-50-21",

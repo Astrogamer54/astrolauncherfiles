@@ -1,0 +1,21 @@
+{
+	id: "0000000000000002",
+	group: "",
+	order_index: 1,
+	filename: "getting_started",
+	title: "Getting started",
+	icon: "oneblock:obmaker",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: -0.5d,
+		description: ["Right click on a block to place your one block"],
+		id: "0000000000000005",
+		tasks: [{
+			id: "0000000000000006",
+			type: "checkmark",
+			title: "Place your one block",
+			icon: "oneblock:obmaker"
+		}]
+	}]
+}

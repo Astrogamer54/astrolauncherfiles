@@ -1,0 +1,6 @@
+onEvent('jei.information', event => {
+    event.add(Item.of('productivebees:sand_nest'), 'productivebees.ingredient.description.oak_wood_nest');
+    event.add(Item.of('productivebees:snow_nest'), 'productivebees.ingredient.description.oak_wood_nest');
+    event.add(Item.of('productivebees:gravel_nest'), 'productivebees.ingredient.description.oak_wood_nest');
+    event.add(Item.of('productivebees:slimy_nest'), 'productivebees.ingredient.description.oak_wood_nest');
+})

@@ -1,0 +1,63 @@
+{
+	id: "0000000000003ADF",
+	group: "",
+	order_index: 0,
+	filename: "progression",
+	title: "Progression",
+	icon: "minecraft:compass",
+	always_invisible: true,
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "5% of items obtained",
+			icon: "minecraft:compass",
+			tags: ["items5"],
+			x: -1.0d,
+			y: 0.0d,
+			id: "0000000000003AE0",
+			tasks: [{
+				id: "0000000000003AE6",
+				type: "custom",
+				title: "5% of items obtained",
+				icon: "minecraft:compass"
+			}]
+		},
+		{
+			title: "10% of items obtained",
+			icon: "minecraft:compass",
+			x: 0.0d,
+			y: 0.0d,
+			id: "0000000000003AE2",
+			tasks: [{
+				id: "0000000000003AE7",
+				type: "custom",
+				title: "10% of items obtained",
+				icon: "minecraft:compass"
+			}]
+		},
+		{
+			title: "15% of items obtained",
+			icon: "minecraft:compass",
+			x: 1.0d,
+			y: 0.0d,
+			id: "0000000000003AE4",
+			tasks: [{
+				id: "0000000000003AE8",
+				type: "custom",
+				title: "15% of items obtained",
+				icon: "minecraft:compass"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			id: "0000000000003AEB",
+			tasks: [{
+				id: "0000000000003AEC",
+				type: "custom",
+				title: "1% of items obtained",
+				icon: "minecraft:compass"
+			}]
+		}
+	]
+}

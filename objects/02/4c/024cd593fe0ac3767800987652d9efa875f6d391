@@ -1,0 +1,137 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/pictures/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 80
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 20
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = bottom-left
+  x = 50
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 16
+}
+
+customization {
+  path = config/fancymenu/pictures/all_in_one_logo.png
+  orientation = mid-centered
+  x = -87
+  width = 174
+  action = addtexture
+  actionid = 48b99b12-5f61-4121-b7f0-e4eb7d2aefb61616241204790
+  y = -213
+  height = 174
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -50
+  width = 100
+  actionid = 98c523ff-f76f-43f8-a35a-d9bc632987971627206424831
+  action = addbutton
+  y = -45
+  backgroundhovered = config/fancymenu/pictures/banner.png
+  label = 
+  backgroundnormal = config/fancymenu/pictures/banner.png
+  value = https://www.bisecthosting.com/all-in-one
+  height = 32
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = bottom-left
+  x = 110
+  action = movebutton
+  y = -39
+}
+

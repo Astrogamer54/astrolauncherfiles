@@ -1,0 +1,108 @@
+{
+	phase: [
+		{
+			weight: 5,
+			content: 800
+		}
+	],
+	texture: "minecraft:dark_prismarine",
+	name: "§3Abyss",
+	block: [
+		{
+			weight: 8,
+			content: "minecraft:sea_lantern"
+		},
+		{
+			weight: 2,
+			content: "minecraft:wet_sponge"
+		},
+		{
+			weight: 1,
+			content: "minecraft:bubble_coral"
+		},
+		{
+			weight: 15,
+			content: "minecraft:prismarine_bricks"
+		},
+		{
+			weight: 1,
+			content: "minecraft:horn_coral"
+		},
+		{
+			weight: 2,
+			content: "quark:elder_sea_lantern"
+		},
+		{
+			weight: 4,
+			content: "quark:dark_elder_prismarine"
+		},
+		{
+			weight: 8,
+			content: "minecraft:bubble_coral_block"
+		},
+		{
+			weight: 1,
+			content: "minecraft:tube_coral_fan"
+		},
+		{
+			weight: 1,
+			content: "minecraft:tube_coral"
+		},
+		{
+			weight: 1,
+			content: "minecraft:horn_coral_fan"
+		},
+		{
+			weight: 8,
+			content: "minecraft:fire_coral_block"
+		},
+		{
+			weight: 8,
+			content: "minecraft:tube_coral_block"
+		},
+		{
+			weight: 3,
+			content: "quark:elder_prismarine_bricks"
+		},
+		{
+			weight: 1,
+			content: "minecraft:bubble_coral_fan"
+		},
+		{
+			weight: 8,
+			content: "minecraft:horn_coral_block"
+		},
+		{
+			weight: 1,
+			content: "minecraft:brain_coral"
+		},
+		{
+			weight: 8,
+			content: "minecraft:brain_coral_block"
+		},
+		{
+			weight: 18,
+			content: "minecraft:dark_prismarine"
+		},
+		{
+			weight: 50,
+			content: "minecraft:prismarine"
+		},
+		{
+			weight: 1,
+			content: "minecraft:fire_coral"
+		},
+		{
+			weight: 6,
+			content: "quark:elder_prismarine"
+		},
+		{
+			weight: 1,
+			content: "minecraft:fire_coral_fan"
+		},
+		{
+			weight: 1,
+			content: "minecraft:brain_coral_fan"
+		}
+	]
+}
