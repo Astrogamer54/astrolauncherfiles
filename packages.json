@@ -9,6 +9,13 @@
       "priority" : 100
     },
     {
+      "title" : "Valhelsia",
+      "name" : "Valhelsia",
+      "version" : "2021-08-15-13-26-28",
+      "location" : "valhelsia.json",
+      "priority" : 6
+    },
+    {
       "title" : "Gunz",
       "name" : "Gunz",
       "version" : "2021-08-14-22-26-08",
