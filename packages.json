@@ -9,6 +9,13 @@
       "priority" : 100
     },
     {
+      "title" : "Gunz",
+      "name" : "Gunz",
+      "version" : "2021-08-14-22-26-08",
+      "location" : "gunz.json",
+      "priority" : 5
+    },
+    {
       "title" : "One Block Skeebonkel",
       "name" : "One Block Skeebonkel",
       "version" : "2021-08-13-10-59-17",
