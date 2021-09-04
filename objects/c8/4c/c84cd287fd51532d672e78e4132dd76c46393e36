@@ -1,0 +1,11 @@
+#Indigo properties file
+#Wed Jun 23 01:35:16 CEST 2021
+fix-smooth-lighting-offset=auto
+>>>>>>>=Stashed changes
+debug-compare-lighting=auto
+always-tesselate-blocks=auto
+ambient-occlusion-mode=hybrid
+<<<<<<<=Updated upstream
+fix-exterior-vertex-lighting=auto
+fix-luminous-block-ambient-occlusion=auto
+=\=\=\=\=\=\=
