@@ -2,51 +2,37 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "All Of Fabric 3",
-      "name" : "All Of Fabric 3",
-      "version" : "2021-09-03-19-23-24",
-      "location" : "all-of-fabric-3.json",
-      "priority" : 5125
-    },
-    {
       "title" : "Lucky Blonks",
       "name" : "Lucky Blonks",
-      "version" : "2021-06-04-15-54-09",
+      "version" : "2021-10-29-20-02-26",
       "location" : "lucky-blonks.json",
-      "priority" : 100
+      "priority" : 98
     },
     {
       "title" : "heros thing",
       "name" : "heros thing",
-      "version" : "2021-08-29-11-48-16",
+      "version" : "2021-10-29-20-02-22",
       "location" : "heros-thing.json",
       "priority" : 7
     },
     {
-      "title" : "Valhelsia",
-      "name" : "Valhelsia",
-      "version" : "2021-08-16-17-43-47",
-      "location" : "valhelsia.json",
-      "priority" : 6
-    },
-    {
       "title" : "Gunz",
       "name" : "Gunz",
-      "version" : "2021-08-16-17-24-36",
+      "version" : "2021-10-29-20-01-46",
       "location" : "gunz.json",
       "priority" : 5
     },
     {
       "title" : "One Block Skeebonkel",
       "name" : "One Block Skeebonkel",
-      "version" : "2021-08-13-10-59-17",
+      "version" : "2021-10-29-20-02-29",
       "location" : "one-block-skeebonkel.json",
       "priority" : 3
     },
     {
       "title" : "Skyblock",
       "name" : "Skyblock",
-      "version" : "2021-06-04-14-50-21",
+      "version" : "2021-10-29-20-03-29",
       "location" : "skyblock.json",
       "priority" : 0
     }
